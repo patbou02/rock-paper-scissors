@@ -9,4 +9,4 @@ const settings = {
   winTarget: 10,
 };
 
-export settings;
+export default settings;

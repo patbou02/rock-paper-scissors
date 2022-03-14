@@ -1,9 +1,17 @@
-import logo from './logo.svg';
-//import './App.css';
+import { settings } from './configs/game';
+
+import rock from './assets/rock.png';
+import paper from './assets/paper.png';
+import scissors from './assets/scissors.png';
+import trophy from './assets/trophy.png';
+
+import './styles.css';
 
 function App() {
   return (
-    <div className="App"></div>
+    <div className="App">
+      <p>Rock Paper Scissors Game</p>
+    </div>
   );
 }
 
